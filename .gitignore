@@ -15,3 +15,6 @@ temp/
 # Python cache
 __pycache__/
 *.pyc
+
+# Compiled helper binaries
+*.exe

@@ -20,6 +20,7 @@ This repository is structured as a portfolio engineering project, not a consent 
 - Python Streamlit dashboard prototype for data review and control-state explanation.
 - Requirements, stakeholder analysis, trade study and FMEA.
 - Concept sensor-pod mounting plate DXF and sensor BOM.
+- SolidWorks validation-kit model with test duct, sensor pod, electronics tray, pressure taps, fan module and flow-conditioning features.
 
 ## Repository Structure
 
@@ -36,11 +37,15 @@ This repository is structured as a portfolio engineering project, not a consent 
 ## Key Files
 
 - `source/solidworks/NZ_Home_Ventilation_System.SLDPRT`
+- `source/solidworks/Smart_Ventilation_Validation_Kit.SLDPRT`
 - `source/scripts/BuildNzHomeVentilationSystem.cs`
+- `source/scripts/BuildSmartVentilationValidationKit.cs`
 - `docs/nz_ventilation_airflow_schedule.csv`
 - `docs/nz_ventilation_duct_pressure_estimate.csv`
 - `docs/nz_ventilation_preliminary_design_note.md`
 - `docs/nz_ventilation_equipment_selection.md`
+- `docs/smart_validation_kit_design_note.md`
+- `docs/smart_validation_kit_component_list.csv`
 - `docs/nz_ventilation_commissioning_test_plan.md`
 - `docs/nz_ventilation_requirements_trade_fmea.md`
 - `docs/nz_ventilation_digital_twin_method.md`
@@ -57,6 +62,8 @@ This repository is structured as a portfolio engineering project, not a consent 
 ![NZ home ventilation 2D plan schematic](images/nz_ventilation_plan_schematic.svg)
 
 ![Smart ventilation sensor validation architecture](images/nz_ventilation_sensor_validation_architecture.svg)
+
+![Smart ventilation validation kit SolidWorks model](images/Smart_Ventilation_Validation_Kit_Isometric.png)
 
 ## Dashboard Prototype
 
