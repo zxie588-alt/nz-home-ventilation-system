@@ -1,0 +1,13 @@
+Item,Qty,BuildOrBuy,IndicativeCost_NZD,EngineeringPurpose,Notes
+ESP32 DevKit,1,Buy,12,Data logger and controller,Can be replaced by similar microcontroller
+SCD40/SCD41 CO2 sensor module,1,Buy,45,CO2 temperature and RH measurement,Future physical test item
+Differential pressure sensor or manometer,1,Buy,35,Duct/filter pressure trend,Can start with handheld manometer
+OLED display,1,Buy,8,Local status display,Optional but useful for demo
+Push button and LEDs,1 set,Buy,5,Manual boost and mode indication,Supports normal/boost demo
+150 mm duct section,1,Buy,25,Transparent or standard duct test section,Used to show probe and pressure tap positions
+Inline fan or spare PC blower concept,1,Buy,30,Airflow source for bench validation,Needs fan guard and safe power supply
+Silicone tubing and barb fittings,1 set,Buy,12,Pressure tap connection,Label upstream and downstream
+3D printed sensor pod,1,Make,8,Sensor packaging and service access,PLA/PETG concept cost
+Base plate and brackets,1 set,Make,25,Mechanical support and assembly,Could be plywood acrylic or aluminium
+Fasteners and cable glands,1 set,Buy,15,Assembly hardware,Include strain relief
+Estimated total,-,Mixed,220,Planning value only,Replace with supplier quotes before build

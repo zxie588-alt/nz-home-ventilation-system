@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">M-101 Smart NZ MVHR design review sheet</title>
+  <desc id="desc">Portfolio engineering drawing sheet for the smart NZ residential MVHR and validation kit project.</desc>
+  <rect width="1600" height="1100" fill="#ffffff"/>
+  <rect x="40" y="40" width="1520" height="1020" fill="#ffffff" stroke="#1f2a2e" stroke-width="3"/>
+  <rect x="40" y="40" width="1520" height="86" fill="#eef3f6" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="70" y="78" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#1f2a2e">M-101 Smart NZ Residential MVHR / ERV Design Review Sheet</text>
+  <text x="70" y="108" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5e6a70">Portfolio preliminary design: airflow schedule, equipment selection, validation test rig and commissioning evidence pathway.</text>
+
+  <rect x="70" y="160" width="720" height="360" fill="#f6f8f7" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="92" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f2a2e">1. MVHR / ERV System Layout</text>
+  <rect x="115" y="230" width="270" height="170" fill="#e8f4f2" stroke="#007c73" stroke-width="3"/>
+  <text x="190" y="318" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#005f58">Supply Zones</text>
+  <rect x="460" y="230" width="220" height="170" fill="#fff3e8" stroke="#d86e20" stroke-width="3"/>
+  <text x="505" y="318" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#8a3b00">Extract Zones</text>
+  <rect x="344" y="430" width="165" height="56" rx="8" fill="#d9e0df" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="372" y="464" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2a2e">LGH-35 MVHR</text>
+  <path d="M426 430 V385 H360" fill="none" stroke="#007c73" stroke-width="5" marker-end="url(#arrowGreen)"/>
+  <path d="M426 430 V385 H525" fill="none" stroke="#d86e20" stroke-width="5" marker-end="url(#arrowOrange)"/>
+  <path d="M509 458 H680" fill="none" stroke="#5e6a70" stroke-width="5" marker-end="url(#arrowGrey)"/>
+  <path d="M344 458 H160" fill="none" stroke="#00896f" stroke-width="5" marker-end="url(#arrowFresh)"/>
+  <text x="140" y="420" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#005f58">Outdoor intake</text>
+  <text x="610" y="420" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">Exhaust</text>
+  <text x="110" y="492" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">Normal balanced mode: 60 L/s supply + 60 L/s extract</text>
+
+  <rect x="840" y="160" width="680" height="360" fill="#f6f8f7" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="862" y="194" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f2a2e">2. SolidWorks Validation Kit</text>
+  <rect x="900" y="340" width="520" height="80" rx="40" fill="#dfeaf1" stroke="#1f2a2e" stroke-width="3"/>
+  <rect x="902" y="342" width="516" height="76" rx="38" fill="#dfeaf1" opacity="0.55"/>
+  <rect x="880" y="305" width="120" height="150" fill="#1f2a2e" stroke="#1f2a2e"/>
+  <circle cx="1000" cy="380" r="46" fill="#d9e0df" stroke="#1f2a2e" stroke-width="3"/>
+  <rect x="1420" y="315" width="72" height="130" fill="#d9e0df" stroke="#1f2a2e" stroke-width="3"/>
+  <line x1="1432" y1="345" x2="1480" y2="345" stroke="#1f2a2e" stroke-width="6"/>
+  <line x1="1432" y1="380" x2="1480" y2="380" stroke="#1f2a2e" stroke-width="6"/>
+  <line x1="1432" y1="415" x2="1480" y2="415" stroke="#1f2a2e" stroke-width="6"/>
+  <rect x="1080" y="245" width="230" height="40" fill="#d9e0df" stroke="#1f2a2e" stroke-width="2"/>
+  <rect x="1085" y="222" width="55" height="24" fill="#03a66a" stroke="#1f2a2e"/>
+  <rect x="1165" y="220" width="50" height="28" fill="#2f72d0" stroke="#1f2a2e"/>
+  <rect x="1240" y="220" width="54" height="28" fill="#2f72d0" stroke="#1f2a2e"/>
+  <rect x="1115" y="456" width="180" height="70" fill="#f4f4ee" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="1140" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1f2a2e">Sensor Pod</text>
+  <line x1="1188" y1="456" x2="1188" y2="420" stroke="#5e6a70" stroke-width="5"/>
+  <line x1="1222" y1="456" x2="1280" y2="270" stroke="#5e6a70" stroke-width="5"/>
+  <line x1="1278" y1="456" x2="1248" y2="270" stroke="#5e6a70" stroke-width="5"/>
+  <text x="900" y="488" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">150 mm duct test section, fan module, pressure taps, sensor pod and ESP32 tray.</text>
+
+  <rect x="70" y="560" width="700" height="300" fill="#ffffff" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="92" y="594" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f2a2e">3. Airflow / Equipment Schedule</text>
+  <line x1="92" y1="620" x2="748" y2="620" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="102" y="650" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1f2a2e">Mode</text>
+  <text x="235" y="650" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1f2a2e">Design airflow</text>
+  <text x="438" y="650" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1f2a2e">Fan duty target</text>
+  <text x="622" y="650" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1f2a2e">Evidence</text>
+  <text x="102" y="690" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">Normal</text>
+  <text x="235" y="684" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">60 L/s supply</text>
+  <text x="235" y="706" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">+ 60 L/s extract</text>
+  <text x="438" y="690" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">60 L/s @ about 80 Pa</text>
+  <text x="622" y="690" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">Sizing sheet</text>
+  <text x="102" y="730" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">Boost</text>
+  <text x="235" y="730" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">85 L/s extract target</text>
+  <text x="438" y="730" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">85 L/s @ about 120 Pa</text>
+  <text x="622" y="730" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">Test plan</text>
+  <text x="102" y="770" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">Unit</text>
+  <text x="235" y="764" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">Mitsubishi Lossnay</text>
+  <text x="235" y="786" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">LGH-35RVX3-E</text>
+  <text x="438" y="770" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">97 L/s @ 160 Pa max</text>
+  <text x="622" y="770" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">Product data</text>
+  <text x="102" y="825" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">Note: preliminary portfolio design, not consent documentation or a professional compliance statement.</text>
+
+  <rect x="820" y="560" width="700" height="300" fill="#ffffff" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="842" y="594" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f2a2e">4. Commissioning / Future Test Items</text>
+  <text x="862" y="640" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">T-01 Airflow balance: terminal supply/extract within target tolerance.</text>
+  <text x="862" y="674" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">T-02 CO2 response: connect SCD40/SCD41 logger and validate boost trigger.</text>
+  <text x="862" y="708" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">T-03 RH response: shower/cooking moisture event clearing trend.</text>
+  <text x="862" y="742" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">T-04 Pressure trend: upstream/downstream duct taps and filter loading indication.</text>
+  <text x="862" y="776" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2a2e">T-05 Fan energy/noise: normal vs boost power and acoustic risk review.</text>
+  <text x="862" y="826" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">Physical sensor testing is listed as future work until hardware is available.</text>
+
+  <rect x="40" y="910" width="1520" height="150" fill="#eef3f6" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="70" y="945" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#1f2a2e">Drawing Notes</text>
+  <text x="70" y="978" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">1. Drawing is for portfolio design review and interview discussion only. Verify final design with qualified building-services professionals.</text>
+  <text x="70" y="1008" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">2. References checked: NZBC G4/AS1, NZBC H1, Healthy Homes ventilation guidance, Mitsubishi Electric Lossnay LGH-RVX3-E data.</text>
+  <text x="70" y="1038" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">3. CAD evidence: SolidWorks model, STEP/STL exports, airflow schedule, pressure estimate, validation kit and commissioning plan.</text>
+  <line x1="1150" y1="910" x2="1150" y2="1060" stroke="#1f2a2e" stroke-width="2"/>
+  <text x="1170" y="944" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1f2a2e">Project</text>
+  <text x="1280" y="944" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">Smart NZ MVHR / ERV</text>
+  <text x="1170" y="974" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1f2a2e">Sheet</text>
+  <text x="1280" y="974" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">M-101</text>
+  <text x="1170" y="1004" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1f2a2e">Revision</text>
+  <text x="1280" y="1004" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">P2 - Portfolio</text>
+  <text x="1170" y="1034" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1f2a2e">Author</text>
+  <text x="1280" y="1034" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#1f2a2e">Ricardo Xie</text>
+
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#007c73"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d86e20"/>
+    </marker>
+    <marker id="arrowGrey" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#5e6a70"/>
+    </marker>
+    <marker id="arrowFresh" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#00896f"/>
+    </marker>
+  </defs>
+</svg>
