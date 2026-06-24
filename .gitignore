@@ -11,3 +11,7 @@ desktop.ini
 # Local build/output scratch
 _scratch/
 temp/
+
+# Python cache
+__pycache__/
+*.pyc

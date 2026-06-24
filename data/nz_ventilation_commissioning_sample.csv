@@ -1,0 +1,22 @@
+timestamp_nz,mode,event,co2_ppm,rh_percent,indoor_temp_C,outdoor_temp_C,supply_flow_Lps,extract_flow_Lps,fan_power_W,estimated_ach,control_action
+2026-07-04 07:00,normal,pre-occupancy baseline,612,54,19.2,9.5,60,60,42,0.94,hold normal balanced flow
+2026-07-04 07:15,normal,two occupants awake,742,56,19.5,9.8,60,60,42,0.94,hold normal balanced flow
+2026-07-04 07:30,normal,breakfast preparation,830,59,19.8,10.1,60,60,42,0.94,monitor kitchen humidity trend
+2026-07-04 07:45,boost,cooking moisture spike,910,67,20.1,10.4,85,85,120,1.33,boost extract for kitchen source control
+2026-07-04 08:00,boost,cooking clearing,820,63,20.0,10.6,85,85,120,1.33,continue boost until humidity falls
+2026-07-04 08:15,normal,kitchen recovered,705,58,19.8,10.8,60,60,42,0.94,return to normal balanced flow
+2026-07-04 09:00,normal,house unoccupied,650,55,19.4,11.2,60,60,42,0.94,hold normal balanced flow
+2026-07-04 10:00,normal,house unoccupied,595,52,19.1,12.0,60,60,42,0.94,hold normal balanced flow
+2026-07-04 12:00,normal,daytime low load,620,51,20.0,13.8,60,60,42,0.94,hold normal balanced flow
+2026-07-04 15:00,normal,one occupant returns,690,53,20.4,14.0,60,60,42,0.94,hold normal balanced flow
+2026-07-04 17:30,normal,three occupants home,960,57,20.8,12.6,60,60,42,0.94,monitor CO2 trend
+2026-07-04 18:00,boost,dinner cooking and occupancy,1180,66,21.2,12.0,85,85,120,1.33,boost for combined CO2 and moisture
+2026-07-04 18:30,boost,peak evening load,1285,70,21.4,11.5,85,85,120,1.33,continue boost
+2026-07-04 19:00,boost,post-cooking clearing,1010,63,21.1,11.2,85,85,120,1.33,continue boost until below threshold
+2026-07-04 19:30,normal,evening recovered,815,58,20.8,10.7,60,60,42,0.94,return to normal balanced flow
+2026-07-04 21:00,normal,quiet evening,760,56,20.2,9.8,60,60,42,0.94,hold normal balanced flow
+2026-07-04 22:00,normal,bedrooms occupied,895,58,19.8,9.4,60,60,42,0.94,hold normal balanced flow
+2026-07-04 23:00,normal,night baseline,805,57,19.4,8.9,60,60,42,0.94,hold normal balanced flow
+2026-07-05 06:45,boost,bathroom shower event,880,74,19.6,8.4,85,85,120,1.33,boost bathroom extract
+2026-07-05 07:15,boost,shower clearing,790,68,19.7,8.8,85,85,120,1.33,continue boost
+2026-07-05 07:45,normal,moisture recovered,690,59,19.6,9.3,60,60,42,0.94,return to normal balanced flow

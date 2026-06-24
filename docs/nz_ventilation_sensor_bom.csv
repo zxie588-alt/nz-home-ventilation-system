@@ -1,0 +1,10 @@
+Item,Role,Example part,Interface,Indicative use,Notes
+ESP32 development board,Data logger and Wi-Fi/serial bridge,ESP32 DevKit,USB/Wi-Fi,Core controller for sensor logging,Can be replaced by Arduino or Raspberry Pi Pico W
+CO2 temperature RH sensor,Indoor air quality and comfort,Sensirion SCD41 or SCD40,I2C,CO2 ppm plus temperature/RH data,NDIR CO2 preferred for meaningful IAQ trend
+Temperature RH sensor,Secondary humidity check,SHT31 or BME280,I2C,Moisture validation and redundancy,Optional if CO2 sensor includes RH
+Differential pressure sensor,Duct/static pressure trend,SDP810/SDP31 class sensor,I2C or analogue,Detect filter loading or fan duty trend,Can be replaced by handheld manometer during commissioning
+Airflow measurement,Terminal balancing,Anemometer or flow hood,Manual reading,Verify supply/extract L/s at terminals,May be borrowed or substituted with calculated placeholder in portfolio stage
+Power measurement,Fan-energy estimate,Plug-in power meter,Manual reading,Record fan W at normal and boost,Needed for energy section
+Sensor pod enclosure,Mechanical mounting,SolidWorks/3D-printed or laser-cut pod,N/A,Protect sensor and provide duct probe route,Drawn as a small manufacturing add-on
+Silicone tube,Pressure tapping connection,3 mm ID tube,N/A,Duct pressure measurement path,Optional for differential pressure test
+CSV dashboard,Data review,Python Streamlit,N/A,Turns logged data into engineering decisions,Included in dashboard folder

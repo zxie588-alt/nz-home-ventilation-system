@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="520" viewBox="0 0 1160 520" role="img" aria-labelledby="title desc">
+  <title id="title">Smart ventilation sensor validation architecture</title>
+  <desc id="desc">Architecture diagram showing MVHR ventilation model, sensors, ESP32 logger, CSV data and dashboard.</desc>
+  <rect width="1160" height="520" fill="#f6f8f7"/>
+  <rect x="36" y="44" width="400" height="360" rx="8" fill="#ffffff" stroke="#d9e0df"/>
+  <text x="66" y="86" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f2a2e">Concept NZ Home</text>
+  <rect x="74" y="120" width="110" height="76" rx="8" fill="#e8f4f2" stroke="#007c73"/>
+  <text x="96" y="152" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#005f58">Living</text>
+  <text x="92" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">CO2 + RH</text>
+  <rect x="232" y="120" width="116" height="76" rx="8" fill="#fff8e8" stroke="#c58b00"/>
+  <text x="260" y="152" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#6a4a00">Kitchen</text>
+  <text x="248" y="176" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">Boost source</text>
+  <rect x="74" y="242" width="110" height="76" rx="8" fill="#eef3f6" stroke="#90a4ae"/>
+  <text x="96" y="274" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#1f2a2e">Bedroom</text>
+  <text x="98" y="298" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">CO2 trend</text>
+  <rect x="232" y="242" width="116" height="76" rx="8" fill="#fff0f2" stroke="#c75b6a"/>
+  <text x="252" y="274" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#8b2635">Bathroom</text>
+  <text x="250" y="298" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">RH spike</text>
+  <rect x="158" y="360" width="160" height="54" rx="8" fill="#ffffff" stroke="#007c73" stroke-width="2"/>
+  <text x="190" y="392" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#005f58">LGH-35 MVHR</text>
+
+  <path d="M436 224 H524" stroke="#007c73" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <rect x="524" y="132" width="180" height="184" rx="8" fill="#ffffff" stroke="#d9e0df"/>
+  <text x="558" y="172" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#1f2a2e">ESP32 Logger</text>
+  <text x="552" y="210" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">timestamp</text>
+  <text x="552" y="236" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">CO2 / RH / temp</text>
+  <text x="552" y="262" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">duct pressure</text>
+  <text x="552" y="288" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#5e6a70">fan mode</text>
+
+  <path d="M704 224 H792" stroke="#007c73" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <rect x="792" y="90" width="310" height="268" rx="8" fill="#ffffff" stroke="#d9e0df"/>
+  <text x="834" y="132" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#1f2a2e">Digital Twin Dashboard</text>
+  <rect x="826" y="164" width="110" height="64" rx="8" fill="#e8f4f2" stroke="#007c73"/>
+  <text x="846" y="190" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">CO2</text>
+  <text x="846" y="214" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#005f58">1000 ppm</text>
+  <rect x="962" y="164" width="110" height="64" rx="8" fill="#fff8e8" stroke="#c58b00"/>
+  <text x="982" y="190" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">Mode</text>
+  <text x="982" y="214" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#6a4a00">Boost</text>
+  <path d="M826 284 C860 245 910 280 946 250 S1018 236 1072 268" stroke="#007c73" stroke-width="4" fill="none"/>
+  <path d="M826 314 C864 294 914 310 948 288 S1020 290 1072 304" stroke="#c58b00" stroke-width="4" fill="none"/>
+  <text x="826" y="342" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">CSV log -> trend -> control decision</text>
+
+  <rect x="508" y="372" width="226" height="72" rx="8" fill="#eef3f6" stroke="#90a4ae"/>
+  <text x="534" y="402" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#1f2a2e">Commissioning evidence</text>
+  <text x="534" y="426" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#5e6a70">Test plan, FMEA, BOM, CSV record</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#007c73"/>
+    </marker>
+  </defs>
+</svg>
