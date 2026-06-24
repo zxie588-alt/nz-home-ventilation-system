@@ -1,0 +1,7 @@
+Parameter,ProjectRequirement,LGH25RVX3E,LGH35RVX3E,LGH50RVX3E,Decision
+Normal airflow,60 L/s,Up to 69 L/s,Up to 97 L/s,Up to 139 L/s,LGH35 gives normal headroom without moving to 200 mm unit size
+Normal pressure allowance,80 Pa,69 L/s at 120 Pa max point,73 L/s at 90 Pa default 75 percent point,104 L/s at 85 Pa default 75 percent point,LGH35 is close to normal target
+Boost airflow,85 L/s,Not covered by max 69 L/s,Covered by max 97 L/s,Covered but larger than needed,LGH35 covers boost target
+Boost pressure allowance,120 Pa,69 L/s at 120 Pa max point but airflow too low,97 L/s at 160 Pa max point,139 L/s at 150 Pa max point,LGH35 has suitable headroom
+Duct connection,Concept mains 180 mm with branches 120-130 mm,150 mm,150 mm,200 mm,LGH35 needs transitions from 150 mm unit spigots to 180 mm main trunks
+Concept selection,Prefer capable but not oversized,No,Yes,No,Select LGH-35RVX3-E for concept sizing

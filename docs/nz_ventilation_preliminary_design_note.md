@@ -7,6 +7,7 @@ This note upgrades the SolidWorks residential ventilation layout from a visual C
 - Concept dwelling footprint: 12 m x 8 m, nominal plan area 96 m2.
 - Nominal internal volume used for a first-pass ventilation sense check: 96 m2 x 2.4 m = 230 m3.
 - Existing CAD deliverables: SolidWorks multi-body model, STEP, STL, PNG render and component-list CSV.
+- Added drawing deliverable: AutoCAD-readable DXF ventilation plan and SVG plan schematic.
 - System architecture: ceiling-mounted MVHR / ERV unit with supply, extract, outdoor intake and exhaust routes.
 - Terminals in model: 4 supply diffusers, 3 extract grilles, 1 outdoor intake and 1 exhaust terminal.
 - Automation method: C# SolidWorks API generation with 151 named CAD bodies/features.
@@ -90,12 +91,12 @@ For a portfolio-level design target, the project should state:
 - Normal mode fan target: 60 L/s at about 80 Pa external static pressure.
 - Boost mode fan target: 85 L/s at about 120 Pa external static pressure.
 
-These targets include margin for filters, grilles, flexible connections, balancing and real equipment pressure drops. A real design would select an MVHR/ERV unit from a manufacturer fan curve.
+These targets include margin for filters, grilles, flexible connections, balancing and real equipment pressure drops. A manufacturer-based concept check was added against Mitsubishi Electric Lossnay LGH-RVX3-E data, with LGH-35RVX3-E selected as the preferred concept unit because it covers the 85 L/s boost target with headroom.
 
 ## Current Limitations / Blockers
 
 - No real architectural plan, window schedule or confirmed room areas.
-- No selected MVHR/ERV unit, fan curve, filter pressure drop or heat-recovery efficiency data.
+- Concept MVHR unit selected, but no full manufacturer fan-curve overlay, filter pressure-drop schedule or final heat-recovery commissioning data.
 - No manufacturer diffuser, grille, damper or weather-hood pressure-loss data.
 - No acoustic calculation or noise criteria.
 - No formal AS/NZS 1668.2 design table extraction.
@@ -104,4 +105,4 @@ These targets include margin for filters, grilles, flexible connections, balanci
 
 ## Recommended Next Upgrade
 
-The strongest next portfolio upgrade is to redraw this in Revit MEP using the same airflow schedule, then export a plan sheet with ducts, terminals, schedule tags and a simple fan-duty note. After that, add one manufacturer MVHR datasheet and compare the selected fan curve against 60 L/s normal and 85 L/s boost operation.
+The strongest next portfolio upgrade is to redraw this in Revit MEP using the same airflow schedule if licensed access is available, then export a plan sheet with ducts, terminals, schedule tags and a simple fan-duty note. The current AutoCAD-readable DXF plan is the interim 2D drawing deliverable.

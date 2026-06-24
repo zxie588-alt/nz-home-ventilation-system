@@ -10,15 +10,18 @@ This repository is structured as a portfolio engineering project, not a consent 
 - Routed supply, extract, outdoor intake and exhaust systems.
 - Diffusers, grilles, collars, hangers, outdoor terminals and airflow markers.
 - C# SolidWorks API model generation workflow.
+- AutoCAD-readable 2D DXF ventilation plan.
 - Normal balanced airflow case: 60 L/s supply and 60 L/s extract.
 - Boost / extractor check case: 85 L/s extract target.
 - Preliminary fan-duty targets: about 80 Pa normal mode and 120 Pa boost mode.
+- Concept MVHR unit selection: Mitsubishi Electric Lossnay LGH-35RVX3-E.
 
 ## Repository Structure
 
 - `source/solidworks/` - native SolidWorks part file.
 - `source/scripts/` - C# SolidWorks API generation script and PowerShell build helper.
 - `exports/` - STEP and STL model exports.
+- `drawings/` - 2D DXF ventilation plan for AutoCAD.
 - `docs/` - component list, airflow schedule, pressure estimate and design notes.
 - `images/` - rendered isometric system view.
 
@@ -29,11 +32,15 @@ This repository is structured as a portfolio engineering project, not a consent 
 - `docs/nz_ventilation_airflow_schedule.csv`
 - `docs/nz_ventilation_duct_pressure_estimate.csv`
 - `docs/nz_ventilation_preliminary_design_note.md`
+- `docs/nz_ventilation_equipment_selection.md`
+- `drawings/nz_home_ventilation_layout.dxf`
 
 ## Preview
 
 ![NZ home ventilation system isometric view](images/NZ_Home_Ventilation_System_Isometric.png)
 
+![NZ home ventilation 2D plan schematic](images/nz_ventilation_plan_schematic.svg)
+
 ## Notes
 
-The model uses New Zealand building-services context from NZBC G4 ventilation, H1 energy efficiency and Healthy Homes ventilation guidance as project references. The current limitations are no real architectural plan, no selected MVHR/ERV manufacturer fan curve, no diffuser/grille data, no acoustic check and no professional compliance review.
+The model uses New Zealand building-services context from NZBC G4 ventilation, H1 energy efficiency and Healthy Homes ventilation guidance as project references. The current limitations are no real architectural plan, no diffuser/grille manufacturer data, no acoustic check and no professional compliance review.

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+<title id="title">NZ home ventilation plan schematic</title>
+<desc id="desc">2D plan schematic showing supply, extract, outdoor air and exhaust routes for a concept New Zealand MVHR ventilation system.</desc>
+<style>
+  .bg { fill: #f7faf9; }
+  .wall { stroke: #1f2a2e; stroke-width: 5; stroke-linecap: square; }
+  .interior { stroke: #6b7478; stroke-width: 3; stroke-linecap: square; }
+  .label { font: 16px Arial, sans-serif; fill: #1f2a2e; }
+  .small { font: 13px Arial, sans-serif; fill: #36464d; }
+  .duct-label { font: 12px Arial, sans-serif; fill: #263238; paint-order: stroke; stroke: #f7faf9; stroke-width: 4px; stroke-linejoin: round; }
+  .legend { font: 14px Arial, sans-serif; fill: #1f2a2e; }
+</style>
+<rect class="bg" x="0" y="0" width="1200" height="800"/>
+<rect x="60.0" y="60.0" width="1020.0" height="680.0" fill="#ffffff" stroke="#d9e0df" stroke-width="2"/>
+<line class="wall" x1="60.0" y1="740.0" x2="1080.0" y2="740.0"/>
+<line class="wall" x1="60.0" y1="60.0" x2="1080.0" y2="60.0"/>
+<line class="wall" x1="60.0" y1="740.0" x2="60.0" y2="60.0"/>
+<line class="wall" x1="1080.0" y1="740.0" x2="1080.0" y2="60.0"/>
+<line class="interior" x1="672.0" y1="740.0" x2="672.0" y2="485.0"/>
+<line class="interior" x1="672.0" y1="400.0" x2="672.0" y2="60.0"/>
+<line class="interior" x1="60.0" y1="349.0" x2="485.0" y2="349.0"/>
+<line class="interior" x1="570.0" y1="349.0" x2="672.0" y2="349.0"/>
+<line class="interior" x1="672.0" y1="510.5" x2="1080.0" y2="510.5"/>
+<line class="interior" x1="672.0" y1="264.0" x2="1080.0" y2="264.0"/>
+<line class="interior" x1="876.0" y1="740.0" x2="876.0" y2="264.0"/>
+<line class="interior" x1="944.0" y1="264.0" x2="944.0" y2="60.0"/>
+<line x1="914.3" y1="191.7" x2="672.0" y2="191.7" stroke="#1265d8" stroke-width="7" stroke-linecap="round"/><text x="799.1" y="183.7" class="duct-label">SUP main 60 L/s</text>
+<line x1="672.0" y1="191.7" x2="672.0" y2="646.5" stroke="#1265d8" stroke-width="7" stroke-linecap="round"/><text x="678.0" y="411.1" class="duct-label">SUP trunk</text>
+<line x1="672.0" y1="230.0" x2="332.0" y2="230.0" stroke="#1265d8" stroke-width="7" stroke-linecap="round"/><text x="508.0" y="222.0" class="duct-label">15 L/s</text>
+<line x1="672.0" y1="570.0" x2="315.0" y2="570.0" stroke="#1265d8" stroke-width="7" stroke-linecap="round"/><text x="499.5" y="562.0" class="duct-label">15 L/s</text>
+<line x1="672.0" y1="442.5" x2="944.0" y2="442.5" stroke="#1265d8" stroke-width="7" stroke-linecap="round"/><text x="814.0" y="434.5" class="duct-label">15 L/s</text>
+<line x1="672.0" y1="646.5" x2="961.0" y2="646.5" stroke="#1265d8" stroke-width="7" stroke-linecap="round"/><text x="822.5" y="638.5" class="duct-label">15 L/s</text>
+<line x1="914.3" y1="140.8" x2="672.0" y2="140.8" stroke="#e36c18" stroke-width="7" stroke-linecap="round"/><text x="799.1" y="132.8" class="duct-label">EXT main 60 L/s</text>
+<line x1="672.0" y1="140.8" x2="672.0" y2="391.5" stroke="#e36c18" stroke-width="7" stroke-linecap="round"/><text x="678.0" y="258.1" class="duct-label">EXT trunk</text>
+<line x1="672.0" y1="281.0" x2="468.0" y2="281.0" stroke="#e36c18" stroke-width="7" stroke-linecap="round"/><text x="576.0" y="273.0" class="duct-label">Kitchen 30/50 L/s</text>
+<line x1="672.0" y1="391.5" x2="829.3" y2="391.5" stroke="#e36c18" stroke-width="7" stroke-linecap="round"/><text x="756.6" y="383.5" class="duct-label">Bath 20/25 L/s</text>
+<line x1="914.3" y1="208.8" x2="990.7" y2="208.8" stroke="#e36c18" stroke-width="7" stroke-linecap="round"/><text x="958.5" y="200.8" class="duct-label">Laundry 10 L/s</text>
+<line x1="1016.2" y1="140.8" x2="1105.5" y2="140.8" stroke="#118a52" stroke-width="7" stroke-linecap="round" stroke-dasharray="10 6"/><text x="1066.9" y="132.8" class="duct-label">OA 60/85 L/s</text>
+<line x1="1016.2" y1="191.7" x2="1105.5" y2="191.7" stroke="#7b8790" stroke-width="7" stroke-linecap="round" stroke-dasharray="10 6"/><text x="1066.9" y="183.7" class="duct-label">EA 60/85 L/s</text>
+<circle cx="332.0" cy="230.0" r="15" fill="#1265d8"/><text x="324.0" y="235.0" fill="white" font="bold 13px Arial">S1</text>
+<circle cx="315.0" cy="570.0" r="15" fill="#1265d8"/><text x="307.0" y="575.0" fill="white" font="bold 13px Arial">S2</text>
+<circle cx="944.0" cy="442.5" r="15" fill="#1265d8"/><text x="936.0" y="447.5" fill="white" font="bold 13px Arial">S3</text>
+<circle cx="961.0" cy="646.5" r="15" fill="#1265d8"/><text x="953.0" y="651.5" fill="white" font="bold 13px Arial">S4</text>
+<rect x="452.0" y="269.0" width="32" height="24" rx="4" fill="#e36c18"/><text x="460.0" y="286.0" fill="white" font="bold 13px Arial">E1</text>
+<rect x="813.3" y="379.5" width="32" height="24" rx="4" fill="#e36c18"/><text x="821.3" y="396.5" fill="white" font="bold 13px Arial">E2</text>
+<rect x="974.7" y="196.8" width="32" height="24" rx="4" fill="#e36c18"/><text x="982.7" y="213.8" fill="white" font="bold 13px Arial">E3</text>
+<rect x="916.4" y="134.4" width="97.7" height="63.8" rx="6" fill="#95a1a8" stroke="#1f2a2e" stroke-width="2"/><text x="937.2" y="171.2" fill="white" font="bold 14px Arial">MVHR</text>
+<text class="small" x="162.0" y="213.0">Kitchen / dining</text>
+<text class="small" x="238.5" y="553.0">Living / lounge</text>
+<text class="small" x="752.8" y="629.5">Bedroom 2</text>
+<text class="small" x="965.2" y="629.5">Bedroom 1</text>
+<text class="small" x="778.2" y="391.5">Bathroom</text>
+<text class="small" x="990.7" y="183.2">Laundry</text>
+<text class="small" x="965.2" y="123.8">MVHR / service</text>
+<line x1="60" y1="760" x2="100" y2="760" stroke="#1265d8" stroke-width="7" stroke-linecap="round"/><text class="legend" x="110" y="765">Supply</text>
+<line x1="240" y1="760" x2="280" y2="760" stroke="#e36c18" stroke-width="7" stroke-linecap="round"/><text class="legend" x="290" y="765">Extract</text>
+<line x1="420" y1="760" x2="460" y2="760" stroke="#118a52" stroke-width="7" stroke-linecap="round"/><text class="legend" x="470" y="765">Outdoor air</text>
+<line x1="600" y1="760" x2="640" y2="760" stroke="#7b8790" stroke-width="7" stroke-linecap="round"/><text class="legend" x="650" y="765">Exhaust</text>
+<text class="small" x="60" y="35">Concept 12 m x 8 m plan. Normal mode: 60 L/s supply and 60 L/s extract. Boost extract check: 85 L/s.</text>
+</svg>
