@@ -1,0 +1,13 @@
+# SolidWorks temporary / backup files
+~$*
+*.bak
+*.tmp
+*.log
+
+# Windows metadata
+Thumbs.db
+desktop.ini
+
+# Local build/output scratch
+_scratch/
+temp/

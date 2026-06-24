@@ -1,0 +1,14 @@
+Mode,System,Path,TerminalFlow_L_per_s,MainSegments,BranchLength_m,BranchDiameter_mm,BranchVelocity_m_per_s,StraightMainLoss_Pa,StraightBranchLoss_Pa,FittingMainLoss_Pa,FittingBranchLoss_Pa,TerminalAllowance_Pa,EstimatedTotalExternalStatic_Pa,Notes
+Normal balanced,Supply,MVHR to Living North supply diffuser,15,"2.85m@60L/s,D180 + 0.45m@60L/s,D180",4.0,130,1.13,1.22,0.47,4.00,2.68,10.00,18.38,Shortest living branch; includes diffuser placeholder
+Normal balanced,Supply,MVHR to Bedroom 2 supply diffuser,15,"2.85m@60L/s,D180 + 0.45m@60L/s,D180 + 2.50m@45L/s,D180",3.2,130,1.13,1.74,0.38,4.00,2.68,10.00,18.81,Includes hall trunk after first branch
+Normal balanced,Supply,MVHR to Living South supply diffuser,15,"2.85m@60L/s,D180 + 0.45m@60L/s,D180 + 2.50m@45L/s,D180 + 1.50m@30L/s,D180",4.2,130,1.13,1.88,0.50,4.00,2.68,10.00,19.06,Longest living branch in CAD
+Normal balanced,Supply,MVHR to Bedroom 1 supply diffuser,15,"2.85m@60L/s,D180 + 0.45m@60L/s,D180 + 2.50m@45L/s,D180 + 1.50m@30L/s,D180 + 0.90m@15L/s,D180",3.4,130,1.13,1.90,0.40,4.00,2.68,10.00,18.99,End-of-trunk branch
+Normal balanced,Extract,Kitchen grille to MVHR,30,"1.65m@50L/s,D170 + 2.85m@60L/s,D170",2.4,120,2.65,1.97,1.69,5.03,15.62,10.00,34.31,Kitchen branch plus shared extract trunk
+Normal balanced,Extract,Bathroom grille to MVHR,20,"1.30m@20L/s,D170 + 1.65m@50L/s,D170 + 2.85m@60L/s,D170",1.85,120,1.77,2.04,0.58,5.03,6.94,10.00,24.59,Bathroom branch plus service-zone trunk
+Normal balanced,Extract,Laundry grille to MVHR,10,local only,1.7,120,0.88,0.00,0.13,0.38,1.41,10.00,11.92,Assumes short local connection from laundry branch to MVHR extract port
+Normal balanced,Outdoor air,Outside intake hood to MVHR,60,"1.05m@60L/s,D180",0.0,180,2.36,0.39,0.00,6.67,0.00,10.00,17.06,Weather hood and wall penetration allowance only; filter/core not included
+Normal balanced,Exhaust air,MVHR to outside exhaust hood,60,"1.05m@60L/s,D180",0.0,180,2.36,0.39,0.00,6.67,0.00,10.00,17.06,Weather hood and wall penetration allowance only
+Boost / extractor check,Extract,Kitchen grille to MVHR boost path,50,"1.65m@75L/s,D170 + 2.85m@85L/s,D170",2.4,120,4.42,4.09,4.69,10.10,43.39,10.00,72.27,Boost estimate for 50 L/s kitchen point check; verify noise/fan curve
+Boost / extractor check,Extract,Bathroom grille to MVHR boost path,25,"1.30m@25L/s,D170 + 1.65m@75L/s,D170 + 2.85m@85L/s,D170",1.85,120,2.21,4.20,0.90,10.10,10.85,10.00,36.05,Boost estimate for 25 L/s bathroom point check; verify noise/fan curve
+Boost / extractor check,Outdoor air,Outside intake hood to MVHR boost path,85,"1.05m@85L/s,D180",0.0,180,3.34,0.78,0.00,13.39,0.00,10.00,24.17,If balanced boost is selected intake duct and fan must support 85 L/s
+Boost / extractor check,Exhaust air,MVHR to outside exhaust hood boost path,85,"1.05m@85L/s,D180",0.0,180,3.34,0.78,0.00,13.39,0.00,10.00,24.17,Boost exhaust path estimate

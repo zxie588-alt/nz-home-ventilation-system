@@ -1,0 +1,15 @@
+Mode,System,TerminalOrDuct,ServedZone,DesignFlow_L_per_s,NominalDuctDiameter_mm,BranchOrDuctLength_m,Velocity_m_per_s,DesignNote,HealthyHomesReferenceCheck
+Normal balanced,Supply,SUP_Diffuser_Living_North,Open-plan living/dining north zone,15,130,4.0,1.13,Four equal supply terminals; total supply 60 L/s,N/A
+Normal balanced,Supply,SUP_Diffuser_Living_South,Open-plan lounge south zone,15,130,4.2,1.13,Four equal supply terminals; total supply 60 L/s,N/A
+Normal balanced,Supply,SUP_Diffuser_Bedroom_2,Bedroom 2,15,130,3.2,1.13,Four equal supply terminals; total supply 60 L/s,N/A
+Normal balanced,Supply,SUP_Diffuser_Bedroom_1,Bedroom 1,15,130,3.4,1.13,Four equal supply terminals; total supply 60 L/s,N/A
+Normal balanced,Extract,EXT_Grille_Kitchen,Kitchen / wet source zone,30,120,2.4,2.65,Total extract 60 L/s balanced with supply,Meets continuous-mechanical reference of 12 L/s; not the 50 L/s intermittent extractor point check
+Normal balanced,Extract,EXT_Grille_Bathroom,Bathroom,20,120,1.85,1.77,Total extract 60 L/s balanced with supply,Meets continuous-mechanical reference of 10 L/s; below the 25 L/s intermittent extractor point check
+Normal balanced,Extract,EXT_Grille_Laundry,Laundry / service zone,10,120,0.9,0.88,Total extract 60 L/s balanced with supply,Additional moisture-source extraction
+Normal balanced,Outdoor intake,OA_Fresh_Air_Intake_Duct,External intake to MVHR,60,180,1.05,2.36,Outdoor air intake sized to normal system flow,N/A
+Normal balanced,Exhaust,EA_Exhaust_Air_Duct,MVHR exhaust to outside,60,180,1.05,2.36,Outdoor exhaust sized to normal system flow,N/A
+Boost / extractor check,Extract,EXT_Grille_Kitchen,Kitchen boost,50,120,2.4,4.42,Temporary demand/boost mode; requires MVHR/fan curve and makeup-air check,Meets 50 L/s extractor-capacity point check; duct diameter is below 150 mm so the airflow-capacity route is the relevant claim
+Boost / extractor check,Extract,EXT_Grille_Bathroom,Bathroom boost,25,120,1.85,2.21,Temporary demand/boost mode; requires MVHR/fan curve and makeup-air check,Meets 25 L/s extractor-capacity point check and 120 mm diameter point
+Boost / extractor check,Extract,EXT_Grille_Laundry,Laundry boost,10,120,0.9,0.88,Temporary demand/boost mode; requires MVHR/fan curve and makeup-air check,Retained service-zone extract
+Boost / extractor check,Outdoor intake,OA_Fresh_Air_Intake_Duct,External intake to MVHR / makeup air,85,180,1.05,3.34,If balanced boost is required intake path would need 85 L/s capacity,Fan selection and noise check required
+Boost / extractor check,Exhaust,EA_Exhaust_Air_Duct,MVHR exhaust to outside,85,180,1.05,3.34,Boost exhaust target for kitchen+bathroom check,Fan selection and noise check required
