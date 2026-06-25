@@ -22,7 +22,7 @@ This repository is structured as a portfolio engineering project, not a consent 
 - Concept sensor-pod mounting plate DXF and sensor BOM.
 - SolidWorks validation-kit model with test duct, sensor pod, electronics tray, pressure taps, fan module and flow-conditioning features.
 - M-101 style design review sheet for interview/portfolio discussion.
-- NZ reference check matrix, fan/energy/noise sense check, manufacturing package and 60-second walkthrough script.
+- NZ reference check matrix, fan/energy/noise sense check, manufacturing package and evidence-gap register.
 
 ## Repository Structure
 
@@ -53,7 +53,7 @@ This repository is structured as a portfolio engineering project, not a consent 
 - `docs/nz_ventilation_reference_check_matrix.md`
 - `docs/nz_ventilation_fan_energy_noise_check.md`
 - `docs/nz_ventilation_future_physical_test_items.md`
-- `docs/smart_ventilation_60s_walkthrough_script.md`
+- `docs/nz_ventilation_evidence_gap_register.md`
 - `docs/nz_ventilation_commissioning_test_plan.md`
 - `docs/nz_ventilation_requirements_trade_fmea.md`
 - `docs/nz_ventilation_digital_twin_method.md`
@@ -74,7 +74,6 @@ This repository is structured as a portfolio engineering project, not a consent 
 
 ![Smart ventilation validation kit SolidWorks model](images/Smart_Ventilation_Validation_Kit_Isometric.png)
 
-![Smart ventilation 60 second walkthrough storyboard](images/smart_ventilation_walkthrough_storyboard.svg)
 
 ## Dashboard Prototype
 
