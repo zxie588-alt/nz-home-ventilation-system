@@ -1,0 +1,11 @@
+Mark,System,Element type,Room or zone,Design airflow L/s,Duct diameter mm,Design velocity m/s,Design pressure note,Commissioning check
+MVHR-01,SA/EA/OA/EX,MVHR unit,Service zone,60 normal / 85 boost,180 main ducts,2.36 normal main,Normal fan target about 80 Pa; boost target about 120 Pa,Record fan mode power pressure and access clearance
+SA-DIF-01,SA-01 Supply Air,Supply diffuser,Living room,15,130,1.13,Low-noise branch target,Measure diffuser airflow and check draught risk
+SA-DIF-02,SA-01 Supply Air,Supply diffuser,Bedroom 1,15,130,1.13,Low-noise branch target,Measure diffuser airflow and check acoustic comfort
+SA-DIF-03,SA-01 Supply Air,Supply diffuser,Bedroom 2,15,130,1.13,Low-noise branch target,Measure diffuser airflow and check acoustic comfort
+SA-DIF-04,SA-01 Supply Air,Supply diffuser,Bedroom 3 / study,15,130,1.13,Low-noise branch target,Measure diffuser airflow and check room coverage
+EA-GRL-KIT-01,EA-01 Extract Air,Extract grille,Kitchen,30 normal / 50 boost,150,1.70 normal / 2.83 boost,Highest extract branch pressure-risk item,Measure normal and boost airflow
+EA-GRL-BATH-01,EA-01 Extract Air,Extract grille,Bathroom,20 normal / 25 boost,130,1.51 normal / 1.88 boost,Moisture-control priority,Measure boost airflow after shower event
+EA-GRL-LDY-01,EA-01 Extract Air,Extract grille,Laundry,10,100,1.27,Moisture-control priority,Measure extract airflow and RH response
+OA-TERM-01,OA-01 Outdoor Air,Outdoor intake terminal,Exterior wall,60 normal / 85 boost,180,2.36 normal / 3.34 boost,Check intake separation and weather protection,Confirm unobstructed intake and filter condition
+EX-TERM-01,EX-01 Exhaust Air,Exhaust terminal,Exterior wall,60 normal / 85 boost,180,2.36 normal / 3.34 boost,Check exhaust separation from intake,Confirm unobstructed exhaust discharge

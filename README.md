@@ -2,6 +2,8 @@
 
 Self-directed New Zealand residential ventilation case study combining 3D CAD layout, SolidWorks API automation, airflow scheduling, duct velocity checks, first-pass pressure-loss estimation, equipment selection, sensor validation planning and a lightweight digital-twin dashboard.
 
+Latest building-services upgrade: a Revit MEP coordination package was added for BIM-style view/sheet planning, mechanical system naming, duct-terminal schedule preparation and commissioning handoff. This repository is honest about the evidence boundary: the package is Revit-ready, while a native checked `.rvt` model remains a future Revit-session deliverable.
+
 This repository is structured as a portfolio engineering project, not a consent design or professional compliance statement.
 
 ## Engineering Scope
@@ -23,6 +25,7 @@ This repository is structured as a portfolio engineering project, not a consent 
 - SolidWorks validation-kit model with test duct, sensor pod, electronics tray, pressure taps, fan module and flow-conditioning features.
 - M-101 style design review sheet for interview/portfolio discussion.
 - NZ reference check matrix, fan/energy/noise sense check, manufacturing package and evidence-gap register.
+- Revit MEP coordination plan, schedule seed and handoff README for BIM-style building-services discussion.
 
 ## Repository Structure
 
@@ -57,12 +60,16 @@ This repository is structured as a portfolio engineering project, not a consent 
 - `docs/nz_ventilation_commissioning_test_plan.md`
 - `docs/nz_ventilation_requirements_trade_fmea.md`
 - `docs/nz_ventilation_digital_twin_method.md`
+- `docs/nz_ventilation_revit_mep_coordination_plan.md`
+- `docs/nz_ventilation_revit_mep_schedule.csv`
+- `docs/nz_ventilation_revit_mep_handoff_readme.md`
 - `docs/nz_ventilation_sensor_bom.csv`
 - `data/nz_ventilation_commissioning_sample.csv`
 - `dashboard/ventilation_dashboard.py`
 - `drawings/nz_home_ventilation_layout.dxf`
 - `drawings/nz_ventilation_sensor_pod_plate.dxf`
 - `drawings/nz_ventilation_m101_design_review_sheet.svg`
+- `images/nz_ventilation_revit_mep_coordination_sheet.svg`
 
 ## Preview
 
@@ -73,6 +80,8 @@ This repository is structured as a portfolio engineering project, not a consent 
 ![Smart ventilation sensor validation architecture](images/nz_ventilation_sensor_validation_architecture.svg)
 
 ![Smart ventilation validation kit SolidWorks model](images/Smart_Ventilation_Validation_Kit_Isometric.png)
+
+![Revit MEP coordination sheet](images/nz_ventilation_revit_mep_coordination_sheet.svg)
 
 
 ## Dashboard Prototype

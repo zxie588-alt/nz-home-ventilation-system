@@ -100,9 +100,9 @@ These targets include margin for filters, grilles, flexible connections, balanci
 - No manufacturer diffuser, grille, damper or weather-hood pressure-loss data.
 - No acoustic calculation or noise criteria.
 - No formal AS/NZS 1668.2 design table extraction.
-- No Revit MEP coordination model yet.
+- Revit MEP coordination package added as a BIM handoff layer; a native checked `.rvt` model remains outside the current public evidence set.
 - No building-consent pathway or professional review.
 
 ## Recommended Next Upgrade
 
-The strongest next portfolio upgrade is to redraw this in Revit MEP using the same airflow schedule if licensed access is available, then export a plan sheet with ducts, terminals, schedule tags and a simple fan-duty note. The current AutoCAD-readable DXF plan is the interim 2D drawing deliverable.
+The strongest next portfolio upgrade is to open the Revit-ready schedule and coordination package in a native Revit session, create real duct elements and families, then export Revit screenshots and schedules after checking routing, tags and access clearances. The current public package includes the BIM naming logic, sheet/view plan, terminal schedule fields and AutoCAD-readable DXF plan.

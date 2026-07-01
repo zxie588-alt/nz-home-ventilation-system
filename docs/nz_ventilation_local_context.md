@@ -62,6 +62,7 @@ For a later upgrade, consider EnergyPlus / OpenStudio / DesignBuilder or IES VE 
 4. Pressure-loss estimate with straight duct and fitting allowances.
 5. Fan duty note: 60 L/s at about 80 Pa for normal mode, 85 L/s at about 120 Pa for boost mode.
 6. One-page project summary for the website.
+7. Revit MEP coordination package with view/sheet plan, naming convention, duct-terminal schedule seed and handoff notes.
 
 ## Remaining Blockers
 
@@ -70,3 +71,4 @@ For a later upgrade, consider EnergyPlus / OpenStudio / DesignBuilder or IES VE 
 - Diffuser, grille, damper, flexible-duct, silencer and weather-hood pressure-loss data.
 - Acoustic check and real installation constraints.
 - Formal compliance pathway and professional review.
+- Native Revit `.rvt` model and Revit-exported screenshots from checked MEP elements.
